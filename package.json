@@ -1,0 +1,24 @@
+{
+  "name": "chatjs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/synonymouse/chatjs.git"
+  },
+  "author": "yelis",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/synonymouse/chatjs/issues"
+  },
+  "homepage": "https://github.com/synonymouse/chatjs#readme",
+  "description": "",
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb-base": "^13.0.0",
+    "eslint-plugin-import": "^2.13.0"
+  }
+}
