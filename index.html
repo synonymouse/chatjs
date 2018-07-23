@@ -8,15 +8,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" type="text/css" media="screen" href="./src/chat/chat.css" />
   <link rel="stylesheet" type="text/css" media="screen" href="./src/form/form.css" />
-  <script src="./src/chat/chat.js"></script>
-  <script src="./src/form/form.js"></script>
-  <script src="./src/app/app.js"></script>
 </head>
 
 <body>
   <h1>Здесь будет чай!</h1>
   <div class="app-js"></div>
-  <script>
+  <script type="module">
+    import { App } from './src/app/app.js';
+
     new App(document.querySelector('.app-js'))
   </script>
 </body>

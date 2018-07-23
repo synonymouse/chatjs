@@ -1,4 +1,4 @@
-class Chat {
+export class Chat {
   constructor({ el, data }) {
     this.el = el;
     this.data = data;
@@ -6,7 +6,7 @@ class Chat {
   }
 
   render() {
-    this.el.innerHTML += `
+    this.el.innerHTML = `
     <div class="chat">
     ${this.setMessages.author} : ${this.setMessages.text}
     </div>
